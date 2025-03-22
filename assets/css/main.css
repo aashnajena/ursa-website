@@ -232,7 +232,7 @@ input, select, textarea {
 		@media screen and (min-width: 961px) and (max-width: 1880px) {
 
 			.container {
-				width: 1200px;
+				width: 1000px;
 			}
 
 		}
@@ -240,7 +240,7 @@ input, select, textarea {
 		@media screen and (min-width: 961px) and (max-width: 1620px) {
 
 			.container {
-				width: 960px;
+				width: 75%;
 			}
 
 		}
@@ -248,7 +248,7 @@ input, select, textarea {
 		@media screen and (min-width: 961px) and (max-width: 1320px) {
 
 			.container {
-				width: 100%;
+				width: 75%;
 			}
 
 		}
@@ -256,7 +256,7 @@ input, select, textarea {
 		@media screen and (max-width: 960px) {
 
 			.container {
-				width: 100%;
+				width: 75%;
 			}
 
 		}
@@ -264,7 +264,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			.container {
-				width: 100%;
+				width: 75%;
 			}
 
 		}
@@ -2256,7 +2256,7 @@ input, select, textarea {
 
 			#main > section.one {
 				background-color: hsla(33.33,32.14%,89.02%,1);
-				background-image: url("../../images/background.jpeg");
+				background-image: url("../../images/bg6.png");
 			}
 
 			#main > section.two {
