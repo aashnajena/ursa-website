@@ -2271,6 +2271,16 @@ input, select, textarea {
 				background-color: hsla(33.33,32.14%,89.02%,1);
 			}
 
+			.container > .left {
+				text-align: left;
+				float: left;
+			}
+
+			.container > .right {
+				text-align: right;
+				float: right;
+			}
+
 /* Wide */
 
 	@media screen and (min-width: 961px) and (max-width: 1880px) {
@@ -2319,6 +2329,16 @@ input, select, textarea {
 
 			.container {
 				padding: 0 2em 0 2em;
+			}
+
+			.container > .left {
+				text-align: center;
+				float: none;
+			}
+
+			.container > .right {
+				text-align: center;
+				float: none;
 			}
 
 		/* Icons */
@@ -2386,6 +2406,16 @@ input, select, textarea {
 
 			.container {
 				padding: 0 2em 0 2em;
+			}
+
+			.container > .left {
+				text-align: center;
+				float: none;
+			}
+
+			.container > .right {
+				text-align: center;
+				float: none;
 			}
 
 		/* Item */
@@ -2579,6 +2609,16 @@ input, select, textarea {
 
 			.container {
 				padding: 0 15px 0 15px;
+			}
+
+			.container > .left {
+				text-align: center;
+				float: none;
+			}
+
+			.container > .right {
+				text-align: center;
+				float: none;
 			}
 
 		/* List */
