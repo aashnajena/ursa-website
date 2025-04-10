@@ -202,6 +202,19 @@ input, select, textarea {
 		font-size: 0.8em;
 	}
 
+	.quote-open { 
+		content: open-quote;
+		font-weight: bold;
+		font-size:100px;
+		color:#889c0b;
+		} 
+	.quote-close { 
+		content: close-quote;
+		font-weight: bold;
+		font-size:100px;
+		color:#889c0b;	  
+	}
+
 	hr {
 		border: 0;
 		border-top: solid 1px #ddd;
@@ -2260,7 +2273,7 @@ input, select, textarea {
 			}
 
 			#main > section.two {
-				background-color: hsla(33.33,32.14%,89.02%,1);
+				background-color: rgb(89, 86, 83);
 			}
 
 			#main > section.three {
@@ -2268,6 +2281,10 @@ input, select, textarea {
 			}
 
 			#main > section.four {
+				background-color: hsla(33.33,32.14%,89.02%,1);
+			}
+
+			#main > section.five {
 				background-color: hsla(33.33,32.14%,89.02%,1);
 			}
 
