@@ -161,6 +161,10 @@ input, select, textarea {
 			margin: 1em 0 0 0;
 		}
 
+		header > img {
+			width: 18%;
+		}
+
 	footer {
 		margin: 2em 0 0 0;
 	}
@@ -253,7 +257,7 @@ input, select, textarea {
 		@media screen and (min-width: 961px) and (max-width: 1620px) {
 
 			.container {
-				width: 75%;
+				width: 85%;
 			}
 
 		}
@@ -261,7 +265,7 @@ input, select, textarea {
 		@media screen and (min-width: 961px) and (max-width: 1320px) {
 
 			.container {
-				width: 75%;
+				width: 85%;
 			}
 
 		}
@@ -269,7 +273,7 @@ input, select, textarea {
 		@media screen and (max-width: 960px) {
 
 			.container {
-				width: 75%;
+				width: 85%;
 			}
 
 		}
@@ -277,7 +281,11 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			.container {
-				width: 75%;
+				width: 85%;
+			}
+
+			.one > .container {
+				width: 90%;
 			}
 
 		}
@@ -2358,6 +2366,10 @@ input, select, textarea {
 				float: none;
 			}
 
+			header > img {
+				width: 20%;
+			}
+
 		/* Icons */
 
 			ul.icons li a {
@@ -2422,17 +2434,21 @@ input, select, textarea {
 			}
 
 			.container {
-				padding: 0 2em 0 2em;
+				padding: 0 1.5em 0 1.5em;
 			}
 
-			.container > .left {
+			.five > .container > .left {
 				text-align: center;
 				float: none;
 			}
 
-			.container > .right {
+			.five > .container > .right {
 				text-align: center;
 				float: none;
+			}
+
+			header > img {
+				width: 25%;
 			}
 
 		/* Item */
@@ -2625,17 +2641,21 @@ input, select, textarea {
 			}
 
 			.container {
-				padding: 0 15px 0 15px;
+				padding: 0 10px 0 10px;
 			}
 
-			.container > .left {
+			.five > .container > .left {
 				text-align: center;
 				float: none;
 			}
 
-			.container > .right {
+			.five > .container > .right {
 				text-align: center;
 				float: none;
+			}
+
+			header > img {
+				width: 33%;
 			}
 
 		/* List */
